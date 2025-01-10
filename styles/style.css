@@ -180,3 +180,27 @@ body{
     
 
 }
+
+.quotes .younus{
+    background-color: #fff;
+    padding: 40px 50px;
+    border: 1px solid #b3b2b2;
+    border-radius: 15px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 13px left 47px;
+}
+.quotes .younus .title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.quotes .younus .names{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.quotes .younus .down{
+    font-weight: 400;
+    font-size: 14px;
+}
