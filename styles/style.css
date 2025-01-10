@@ -3,9 +3,17 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #D5D6D8;
+    font-family: "Open Sans", serif;
+
+}
+#container{
+    width: 1280px;
+    margin: 0 auto;
+}
 
 .navbar{
-    width: 1280px;
     display: flex;
     justify-content: space-between;
     margin: 20px auto;
@@ -35,11 +43,60 @@
     border: 1px solid #006A50;
     padding: 8px 20px;
     border-radius: 5px;
+    transition: 0.3s;
 
 }
 .navbar button a:hover{
     background-color: #006A50;
     border: 1px solid white;
     color: white;
-    transition-duration: 0.3s;
+    transition: 0.3s;
+}
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    margin: 80px 0;
+    padding: 40px 40px;
+}
+.banner h5{
+    color: rgb(14, 14, 14,.5);
+
+}
+.banner .banner-text{
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.banner button{
+    border: none;
+    margin: 20px 0;
+}
+
+.banner button a{
+    text-decoration: none;
+    color: #FFFF;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background: #006A50;
+    border: 1px solid #006A50;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+.banner button a:hover{
+    background-color: #ffff;
+    border: 1px solid #006A50;
+    color: #006A50;
+    transition: 0.3s;
+
 }
