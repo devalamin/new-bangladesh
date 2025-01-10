@@ -103,12 +103,80 @@ body{
 .vision{
     margin: 50px 0;
 }
+.vision .text{
+    margin: 80px 0;
+}
 
 .vision h4{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 22px;
 }
 .vision p{
     font-weight: 400;
     font-size: 16px;
+}
+.vision .card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.vision .card-container .card{
+    width: 345px;
+    background-color: rgba(84, 144, 245,.20);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+.vision .card-container .card2{
+    background-color: rgb(0, 106, 106,0.2);
+}
+
+.vision .card-container .card .title{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0;
+
+}
+.vision .card-container .card .description{
+    font-size: 16px;
+    color: rgba(14, 14, 14,0.7);
+}
+.vision .card-container .card button{
+    margin: 20px 0;
+    border: none;
+}
+.vision .card-container .card button a{
+    text-decoration: none;
+    color: #FFFF;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background: #006A50;
+    border: 1px solid #006A50;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+.vision .card-container .card2 button a{
+    background-color: rgba(166, 220, 222, 0.9);
+    border: 1px solid rgba(166, 220, 222, 0.9);
+    color: rgb(26, 24, 24);
+}
+.vision .card-container .card3 button a{
+    background-color: rgba(129, 165, 166, 0.9);
+    border: 1px solid rgba(129, 165, 166, 0.9);
+    color: rgb(26, 24, 24);
+
+}
+
+
+.vision .card-container .card button a:hover{
+    background-color: #ffff;
+    border: 1px solid #006A50;
+    color: #006A50;
+    
+
 }
