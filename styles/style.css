@@ -290,3 +290,83 @@ body{
     transition: 0.3s;
 
 }
+#donate {
+    margin: 80px 0;
+}
+
+#donate .upper-text{
+    text-align:center;
+    width: 80%;
+    margin: 0 auto;
+}
+#donate .upper-text .title{
+    font-weight: 700;
+    font-size: 28px;
+    
+}
+#donate .taka-container{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#donate .taka-container .taka{
+    text-align: center;
+    width: 15%;
+    background-color: #fff;
+    padding: 40px 40px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#donate .taka-container .taka p{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#donate .taka-container .taka:hover{
+    background-color: rgb(67, 71, 71);
+    color: #ffff;
+    
+
+}
+#donate .form{
+    width:78%;
+    margin: 0 auto;
+}
+#donate .form input{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    border: 0;
+    text-align: center;
+}
+#donate .form input::placeholder{
+    padding: 10px 40px;
+}
+#donate .btn{
+    text-align: center;
+    margin: 40px 0;
+}
+#donate .btn button{
+    border: 0;
+}
+#donate button a{
+    text-decoration: none;
+    color: #FFFF;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background: #006A50;
+    border: 1px solid #006A50;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+#donate button a:hover{
+    background-color: rgb(67, 71, 71);
+    color: #ffff;
+}
