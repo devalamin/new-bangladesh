@@ -446,3 +446,7 @@ body{
     background-color: rgb(67, 71, 71);
     color: #ffff;
 }
+
+.footer-text{margin-top: 40px;
+    color: #333232;
+}
