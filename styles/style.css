@@ -387,11 +387,14 @@ body{
 }
 .news .news-form{
     width: 700px;
+    height: 60px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 .news .news-form input{
     width: 80%;
-    padding: 20px 0;
+    height: 100%;
     border: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -400,10 +403,23 @@ body{
 .news .news-form input::placeholder{
     padding: 0 10px;
 }
+.news .news-form .news-btn{
+    height: 100%;
+}
 
 .news .news-form button{
     border: none;
-    margin-left: -5px;
+    height: 100%;
+    background-color: #006A50;
+    transition: 0.3s;
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.news .news-form button:hover{
+    background-color: rgb(67, 71, 71);
+    color: #ffff;
+
 }
 .news .news-form button a{
     text-decoration: none;
@@ -414,8 +430,7 @@ body{
     font-weight: 400;
     font-style: normal;
     background: #006A50;
-    border: 1px solid #006A50;
-    padding: 16px 20px;
+    padding: 17px 20px;
     transition: 0.3s;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
