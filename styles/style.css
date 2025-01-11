@@ -310,6 +310,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 #donate .taka-container .taka{
     text-align: center;
     width: 15%;
@@ -317,6 +318,10 @@ body{
     padding: 40px 40px;
     border-radius: 10px;
     transition: 0.3s;
+}
+#donate .taka-container .green{
+    background-color: #006A50;
+    color: #fff;
 }
 #donate .taka-container .taka p{
     font-weight: 700;
