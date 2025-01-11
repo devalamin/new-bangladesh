@@ -370,3 +370,54 @@ body{
     background-color: rgb(67, 71, 71);
     color: #ffff;
 }
+.news{
+    text-align: center;
+    background-color: #C6E4D6;
+    padding: 50px 0;
+    border-radius: 15px;
+}
+.news .title{
+    font-weight: 700;
+    font-size: 28px;
+}
+.news .news-description{
+    width: 616px;
+    margin: 15px auto;
+    
+}
+.news .news-form{
+    width: 700px;
+    margin: 0 auto;
+}
+.news .news-form input{
+    width: 80%;
+    padding: 20px 0;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.news .news-form input::placeholder{
+    padding: 0 10px;
+}
+
+.news .news-form button{
+    border: none;
+    margin-left: -5px;
+}
+.news .news-form button a{
+    text-decoration: none;
+    color: #FFFF;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    background: #006A50;
+    border: 1px solid #006A50;
+    padding: 16px 20px;
+    transition: 0.3s;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
