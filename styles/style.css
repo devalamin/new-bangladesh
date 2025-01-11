@@ -421,3 +421,8 @@ body{
     border-bottom-right-radius: 10px;
 
 }
+
+.news .news-form button a:hover{
+    background-color: rgb(67, 71, 71);
+    color: #ffff;
+}
